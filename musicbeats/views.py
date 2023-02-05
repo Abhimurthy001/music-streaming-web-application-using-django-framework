@@ -33,12 +33,12 @@ def watchlater(request):
         
         for i in watch:
             if video_id == i.video_id:
-                message = "Your song is Already Added"
+                message = "Your Song is Already Added"
                 break
         else:
             watchlater = Watchlater(user=user, video_id=video_id)
             watchlater.save()
-            message = "Your song is Succesfully Added"
+            message = "Your Song is Succesfully Added"
 
         song = Song.objects.filter(song_id=video_id).first()
         return render(request, f"musicbeats/songpost.htm", {'song': song, "message": message})
