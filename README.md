@@ -1,7 +1,7 @@
 
 
 It's a spotify like web-application where users can listen, upload and delete songs.
-It is built using HTML, bootstrap and Django framework.
+It is built using HTML, bootstrap and Python-Django framework.
 
 To run the project: 
 open the file in a code editor (VS Code or pychram recommended)
