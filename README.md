@@ -1,7 +1,6 @@
-# musicbeats
-a music streaming web-application using Django framework
 
-Musicbeats is a spotify like web-application where users can listen, upload and delete songs.
+
+It's a spotify like web-application where users can listen, upload and delete songs.
 It is built using HTML, bootstrap and Django framework.
 
 To run the project: 
